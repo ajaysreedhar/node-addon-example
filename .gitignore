@@ -1,6 +1,7 @@
 .idea/
 node_modules/
 build/
+cmake-build-debug/
 
 package-lock.json
 
@@ -17,4 +18,3 @@ CTestTestfile.cmake
 *.log
 *.old
 *.bak
-*.log
