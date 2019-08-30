@@ -64,7 +64,7 @@ bool nsdl::inflate (spec_t attr) {
         /* To demonstrate multi-threading capabilities with Node.js addon,
          * we run an expensive operation that involves CPU and GPU resources
          * on a separate thread without blocking the event loop. */
-        std::thread* tr = new std::thread(_tAnimateSurface, window, attr);
+        auto tr = new std::thread(_tAnimateSurface, window, attr);
         tr->detach();
 
         uv_timer_init(loop, timer);
