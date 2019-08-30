@@ -99,8 +99,8 @@ void nsdl::Method (const v8::FunctionCallbackInfo<v8::Value> &args) {
         auto localVal = values->Get(context, localKey).ToLocalChecked();
 
         /* We get key-values as V8 String. So we cast it to standard C++ string. */
-        std::string key = *v8::String::Utf8Value(localKey);
-        std::string val = *v8::String::Utf8Value(localVal);
+        std::string key = *v8::String::Utf8Value(isolate, localKey);
+        std::string val = *v8::String::Utf8Value(isolate, localVal);
 
         if (key == "width")  {
             attr.width = std::stoi(val);
