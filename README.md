@@ -4,7 +4,7 @@
 
 Node.js, by nature is single threaded. Hence it is not adviced to write CPU intensive applications
 in Javascript and run them with Node.js due to performance impacts. But it is possible to overcome this 
-limitation to an extend, with the help of native _Node.js Addons_.
+limitation, with the help of _Node.js Addons_.
 
 Node.js Addons are dynamically-linked shared objects, written in C++, that can be loaded into Node.js using
 the require() function, and used just as if they were an ordinary Node.js module.
