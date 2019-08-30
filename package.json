@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-sdl-example",
+  "version": "1.0.0",
+  "description": "A sample Node.js addon to draw graphics with SDL2 library",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajaysreedhar/nodejs-sdl-example.git"
+  },
+  "keywords": [
+    "nodejs",
+    "sdl2",
+    "addon",
+    "native",
+    "addon",
+    "example"
+  ],
+  "author": "Ajay Sreedhar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajaysreedhar/nodejs-sdl-example/issues"
+  },
+  "homepage": "https://github.com/ajaysreedhar/nodejs-sdl-example#readme",
+  "devDependencies": {
+    "node-addon-api": "^1.7.1"
+  }
+}
