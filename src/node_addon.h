@@ -1,0 +1,8 @@
+//
+// Created by ajay on 31/08/19.
+//
+
+#ifndef NODEJS_SDL_EXAMPLE_NODE_ADDON_H
+#define NODEJS_SDL_EXAMPLE_NODE_ADDON_H
+
+#endif //NODEJS_SDL_EXAMPLE_NODE_ADDON_H
