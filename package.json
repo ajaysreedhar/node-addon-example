@@ -1,6 +1,8 @@
 {
   "name": "nodejs-sdl-example",
   "version": "1.0.0",
+  "gypfile": true,
+  "private": true,
   "description": "A sample Node.js addon to draw graphics with SDL2 library",
   "main": "main.js",
   "scripts": {
