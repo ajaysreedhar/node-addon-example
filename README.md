@@ -1,4 +1,4 @@
-# Node.js Native C++ Addon - Example
+# Node.js C++ Addon - Example
 
 > Hardware accelarated image rendering using SDL2
 
