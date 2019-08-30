@@ -2,7 +2,7 @@
 
 > Hardware accelarated image rendering using SDL2
 
-Node.js, by nature is single threaded. Hence it is not adviced to write CPU intensive applications
+Node.js, by nature is single threaded. Hence it is not advised to write CPU intensive applications
 in Javascript and run them with Node.js due to performance impacts. But it is possible to overcome this 
 limitation, with the help of _Node.js Addons_.
 
