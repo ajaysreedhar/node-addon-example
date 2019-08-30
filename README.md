@@ -4,14 +4,14 @@
 
 Node.js, by nature is single threaded. Hence it is not advised to write CPU intensive applications
 in Javascript and run them with Node.js due to performance impacts. But it is possible to overcome this 
-limitation, with the help of _Node.js Addons_.
+limitation to an extend with the help of _Node.js Addons_.
 
-Node.js Addons are dynamically-linked shared objects, written in C++, that can be loaded into Node.js using
-the require() function, and used just as if they were an ordinary Node.js module.
+Node.js Addons are dynamically-linked shared objects, written in C++, that can be loaded into Node.js runtime using
+the require() function, and used just as if they were an ordinary Javascript module.
 
 ## Prerequisites
 
-The addon uses _Simple DirectMedia Layer_ - a graphics library written in C that provides low level access to graphics hardware.
+The addon uses [Simple DirectMedia Layer](https://www.libsdl.org) - a library that provides low level access to graphics hardware.
 
 ```bash
 $ brew install sdl2
