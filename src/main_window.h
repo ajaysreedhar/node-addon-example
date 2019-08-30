@@ -86,5 +86,6 @@ public:
     bool watch ();
 };
 
-}
-#endif // EXAMPLE_MAIN_WINDOW_H
+} /* namespace nsdl */
+
+#endif /* EXAMPLE_MAIN_WINDOW_H */
