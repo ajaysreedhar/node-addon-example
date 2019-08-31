@@ -9,7 +9,7 @@ One of the ways to overcome this limitation is leveraging multi-threading capabi
 Node.js Addons are dynamically-linked shared libraries, written in C++, that can be loaded into Node.js runtime using
 the `require()` function, and used just as if they were an ordinary JavaScript module.
 
-This example demonstrates a Node.js Addon which performs GPU accelarated image rendering without interfering the event loop. Though the addon captures user inputs on the main thread, image rendering is performed on a new detached thread.
+This example demonstrates a Node.js Addon which performs GPU accelarated image rendering without interfering the event loop. Though the addon captures user inputs on the main thread, image rendering is performed on a new thread.
 
 
 ## Prerequisites
