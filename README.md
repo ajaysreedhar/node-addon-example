@@ -29,7 +29,7 @@ $ sudo npm install -g node-gyp
 ```
 
 
-## Compiling running
+## Compiling and running
 
 Clone the repository
 
