@@ -3,11 +3,13 @@
 > Hardware accelarated image rendering using SDL2
 
 Node.js follows a single threaded, event driven approach. Hence it is not advised to write CPU intensive applications in 
-Javascript and run them with Node.js as it may obstruct the event loop. 
-But it is possible to overcome this limitation to an extend with the help of _Node.js Addons_.
+JavaScript and run them with Node.js as it may obstruct the event loop. 
+One of the ways to overcome this limitation is leveraging multi-threading capabilities with the help of _Node.js Addons_.
 
-Node.js Addons are dynamically-linked shared objects, written in C++, that can be loaded into Node.js runtime using
-the require() function, and used just as if they were an ordinary Javascript module.
+Node.js Addons are dynamically-linked shared libraries, written in C++, that can be loaded into Node.js runtime using
+the `require()` function, and used just as if they were an ordinary JavaScript module.
+
+This example demonstrates a Node.js Addon which performs GPU accelarated image rendering without interfering the event loop. Though the addon captures user inputs on the main thread, image rendering is performed on a new detached thread.
 
 
 ## Prerequisites
