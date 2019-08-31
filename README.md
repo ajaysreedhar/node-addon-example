@@ -2,7 +2,7 @@
 
 > Hardware accelarated image rendering using SDL2
 
-Node.js follows a single threaded, event driven approach. Hence it is not advised to write CPU intensive applications in 
+Node.js follows a single threaded, event-driven approach. Hence it is not advised to write CPU intensive applications in 
 JavaScript and run them with Node.js as it may obstruct the event loop. 
 One of the ways to overcome this limitation is leveraging multi-threading capabilities with the help of _Node.js Addons_.
 
