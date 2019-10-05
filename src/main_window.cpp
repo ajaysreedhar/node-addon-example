@@ -35,6 +35,13 @@ MainWindow::MainWindow (int width, int height) {
 }
 
 /**
+ * Stops animation.
+ */
+void MainWindow::stopAnimation () {
+    this->shouldAnimate = false;
+}
+
+/**
  * Performs a hardware accelerated rendering of the image texture
  * directly on the main window renderer and blinks the image.
  *
@@ -114,11 +121,4 @@ bool MainWindow::watch () {
     }
 
     return true;
-}
-
-/**
- * Stops animation.
- */
-void MainWindow::stopAnimation () {
-    this->shouldAnimate = false;
 }

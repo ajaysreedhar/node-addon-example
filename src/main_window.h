@@ -67,6 +67,11 @@ public:
     MainWindow (int width, int height);
 
     /**
+     * Stops animation.
+     */
+    void stopAnimation ();
+
+    /**
      * Performs a hardware accelerated rendering of the image texture
      * directly on the main window texture and blinks the image.
      *
@@ -74,11 +79,6 @@ public:
      * @return 1 if blit succeeds, 0 otherwise
      */
     int blinkImage (const std::string* file);
-
-    /**
-     * Stops animation.
-     */
-    void stopAnimation ();
 
     /**
      * Runs the window. Awaits events.
