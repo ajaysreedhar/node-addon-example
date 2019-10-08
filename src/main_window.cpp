@@ -23,7 +23,7 @@ MainWindow::MainWindow (int width, int height) {
     this->width = width;
     this->height = height;
 
-    this->window = SDL_CreateWindow("Picture Frame",
+    this->window = SDL_CreateWindow("Node.js SDL Example",
                                     SDL_WINDOWPOS_CENTERED,SDL_WINDOWPOS_CENTERED,width, height,0); // NOLINT(hicpp-signed-bitwise)
 
     if ( !this->window ) {

@@ -1,6 +1,6 @@
 # Node.js C++ Addon - Example
 
-> Hardware accelarated image rendering using SDL2
+> Hardware accelarated image rendering with SDL2
 
 Node.js follows a single threaded, event-driven approach. Hence it is not advised to write CPU intensive applications in 
 JavaScript and run them with Node.js as it may obstruct the event loop. 
